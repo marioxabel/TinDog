@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;   
+	margin: 0 auto; 
+}
+
+body {
+    background-color: darkgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%; /* solves a lot of side-scrolling issues in small screens*/
+    display: block; /* block solves a lot of problems with images*/
+    margin: 0;
+}
+
+/* ----------  TYPO  ---------- */
+
+h1 {
+    margin: 0;
+    color: #F8F8F8;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 7px;
+    color: #B7B7B7; 
+    font-size: 24px;
+    font-weight: 400;   
+}
+
+/* ----------  STYLING  ---------- */
+
+.container {
+    margin: 0 auto;
+    width: 550px;
+    background-color: white;
+}
+
+nav {
+    height: 82px;
+    padding: 21px 19px;
+    display: flex;
+    justify-content: space-between;   
+    align-content: baseline;
+}
+
+img.menu {
+    height: 33px;
+    margin: auto 0;
+}
+
+img.logo {
+    height: 42px;
+    margin: auto;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile-pic {
+    padding: 0 8px;
+    border-radius: 20px;
+}
+
+.summary {
+    position: absolute;
+    bottom: 16px;
+    left: 28px;
+}
+
+.buttons {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12.5px;
+    height: 92px;
+    width: 92px;
+    background-color: white;
+    border-radius: 50%;
+    border: none; 
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+.reject:hover {
+    background-color: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+.accept:hover {
+    background-color: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
